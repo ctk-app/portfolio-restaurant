@@ -10,7 +10,7 @@ export default function Home() {
             <a href="#menu" className="hover:text-gray-900">메뉴</a>
             <a href="#info" className="hover:text-gray-900">오시는 길</a>
           </div>
-          <a href="tel:02-3333-4444" className="text-sm font-medium" style={{ color: "var(--clay)" }}>예약 02-3333-4444</a>
+          <a href="#info" className="text-sm font-medium" style={{ color: "var(--clay)" }}>예약 안내</a>
         </div>
       </nav>
 
@@ -25,7 +25,7 @@ export default function Home() {
           <h1 className="text-5xl sm:text-7xl font-bold serif mb-4">소반</h1>
           <p className="text-lg sm:text-xl font-light mb-2 opacity-90">정성을 담은 한 상</p>
           <p className="text-sm opacity-60 mb-8">합정역 3번 출구 도보 3분</p>
-          <a href="tel:02-3333-4444" className="btn-dark inline-block">예약하기</a>
+          <a href="#info" className="btn-dark inline-block">예약하기</a>
         </div>
       </section>
 
@@ -127,8 +127,8 @@ export default function Home() {
             </div>
             <div>
               <h3 className="text-xs font-bold text-gray-400 mb-1">예약</h3>
-              <p className="text-sm text-gray-700">02-3333-4444</p>
-              <p className="text-xs text-gray-400 mt-1">당일 예약 가능 (전화)</p>
+              <p className="text-sm text-gray-700">카카오톡 문의</p>
+              <p className="text-xs text-gray-400 mt-1">당일 예약 가능</p>
             </div>
           </div>
         </div>
